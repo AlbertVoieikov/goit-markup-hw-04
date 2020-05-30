@@ -109,27 +109,29 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  fill: #757575;
 }
 
 .link:hover,
 .link:focus {
   color: #2196f3;
+  fill: #2196f3;
 }
 
 .envelope {
-  padding: 0;
   margin-right: 10px;
   width: 16px;
   height: 12px;
+
+  /* fill: #757575; */
 }
 
-.envelope:hover,
+/* .envelope:hover,
 .envelope:focus {
-  color: #2196f3;
-}
+  fill: #2196f3;
+} */
 
 .smartphone {
-  padding: 0;
   margin-right: 10px;
   width: 10px;
   height: 15px;
@@ -388,6 +390,25 @@ img {
   color: #afb1b8;
 }
 
+.social-bg {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  outline: 1px solid #ccc;
+
+  border: ;
+
+  border-radius: 5px;
+}
+
+.social-icon {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+}
 /* customers */
 
 .customers-list {
