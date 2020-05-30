@@ -1,13 +1,3 @@
-/* html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-} */
-
 body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
@@ -21,8 +11,6 @@ ul {
 
 img {
   display: block;
-  /* max-width: 100%;
-  height: auto; */
 }
 
 .list {
@@ -86,14 +74,6 @@ img {
   margin-left: 50px;
 }
 
-/* .site-nav .item:last-child {
-  margin-right: 0;
-} */
-
-/* .site-nav .item:not(:last-child) {
-  margin-right: 50px;
-} */
-
 .site-nav .link {
   display: block;
   padding-top: 32px;
@@ -116,6 +96,7 @@ img {
 .contacts {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 
 .contacts .item + .item {
@@ -127,7 +108,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: #757575;
 }
 
 .link:hover,
@@ -135,10 +116,48 @@ img {
   color: #2196f3;
 }
 
+.envelope {
+  padding: 0;
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+}
+
+.envelope:hover,
+.envelope:focus {
+  color: #2196f3;
+}
+
+.smartphone {
+  padding: 0;
+  margin-right: 10px;
+  width: 10px;
+  height: 15px;
+}
+
+/* .contacts {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  outline: 1px solid #ccc;
+  list-style: none;
+}
+
+.link-icon {
+  padding: 0;
+  border: none;
+}
+
+ */
+
+/* #svg-sprite {
+  display: none;
+} */
+
 /* hero */
 
 .overlay {
-  min-width: 1600px;
+  max-width: 1600px;
   height: 600px;
   margin-right: auto;
   margin-left: auto;
@@ -206,6 +225,23 @@ img {
 }
 
 /* skills */
+
+.background {
+  display: flex;
+  justify-content: center;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+
+  background-repeat: no-repeat;
+}
 
 .skills {
   border-bottom: 1px solid #ececec;
