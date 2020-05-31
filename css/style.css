@@ -507,16 +507,6 @@ img {
   color: #ffffff;
 }
 
-.social-link:hover,
-.social-link:focus {
-  color: #2196f3;
-}
-
-.social-link {
-  text-decoration: none;
-  color: #ffffff;
-}
-
 .footer-copyright {
   font-weight: 400;
   font-size: 12px;
@@ -552,6 +542,25 @@ img {
 
 .sl-list .sl-item + .sl-item {
   margin-left: 11px;
+}
+
+.social-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  text-decoration: none;
+  fill: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #2196f3;
 }
 
 /* portfolio */
